@@ -15,6 +15,7 @@ public class MongoDbProjectApplication implements CommandLineRunner{
 	private MongoTemplate mt;
 	public static void main(String[] args) {
 		SpringApplication.run(MongoDbProjectApplication.class, args);
+		System.out.println("Hi I am Vengalarayudu");
 	}
 
 	@Override
